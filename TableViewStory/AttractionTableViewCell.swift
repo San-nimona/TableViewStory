@@ -9,6 +9,8 @@ import UIKit
 
 class AttractionTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var attractionLabel: UILabel!
+    @IBOutlet weak var attractionImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
